@@ -1,4 +1,5 @@
 import { Counter } from "./components/Counter";
+import { UserComponent } from "./components/User";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <hr />
 
       <Counter />
+      <UserComponent />
     </>
   );
 }
